@@ -22,10 +22,7 @@ class Course:
         return False
         
     def get_average_grade(self):
-        value = 0
-        for student in self.students:
-            value += student.get_grade()
-            
+        value = sum(student.get_grade() for student in self.students)
         return value / len(self.students)
         
     
