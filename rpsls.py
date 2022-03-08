@@ -1,4 +1,4 @@
-# A Rock, Paper, Scissors and maybe more Program
+# A Rock, Paper, Scissors and maybe more Programs
 
 import random
 
